@@ -10,13 +10,12 @@ class train_validation:
         self.raw_data = Raw_Data_validation(path)
         self.dataTransform = dataTransform()
         self.dBOperation = dBOperation()
-        self.cwd=os.getcwd()
-        self.file_object = open(self.cwd+'Training_Main_Log.txt', 'a+')
+        self.file_object = open("Training_Logs/Training_Main_Log.txt", 'a+')
         self.log_writer = logger.App_Logger()
 
     def train_validation(self):
         try:
-            self.log_writer.log(self.file_object, 'Start of Validation on files for Training')
+            self.log_writer.log(self.file_object, 'Start of Validation on files for Training!!')
             # extracting values from prediction schema
             LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, noofcolumns = self.raw_data.valuesFromSchema()
             # getting the regex defined to validate filename
@@ -31,7 +30,7 @@ class train_validation:
 
             self.log_writer.log(self.file_object, "Starting Data Transforamtion!!")
             # replacing blanks in the csv file with "Null" values to insert in table
-            #self.dataTransform.replaceMissingWithNull()
+            self.dataTransform.replaceMissingWithNull()
 
             self.log_writer.log(self.file_object, "DataTransformation Completed!!!")
 
@@ -60,3 +59,12 @@ class train_validation:
 
         except Exception as e:
             raise e
+
+
+
+
+
+
+
+
+

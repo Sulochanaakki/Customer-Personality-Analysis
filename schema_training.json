@@ -1,7 +1,7 @@
-{	"SampleFileName": "marketing_campaign_3000234_34555.csv",
-	"LengthOfDateStampInFile": 7,
-	"LengthOfTimeStampInFile": 5,
-	"NumberofColumns" : 29,
+{"SampleFileName": "marketing_campaign_3000234_34555.csv",
+"LengthOfDateStampInFile": 9,
+"LengthOfTimeStampInFile": 6,
+"NumberofColumns" : 29,
 	"ColName": {
 		"ID" : "Integer",
 		"Year_Birth": "Integer",
