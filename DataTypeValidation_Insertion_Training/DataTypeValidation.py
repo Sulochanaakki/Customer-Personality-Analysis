@@ -26,7 +26,7 @@ class dBOperation:
                 Description: This method creates the database with the given name and if Database already exists then opens the connection to the DB.
                 Output: Connection to the DB
                 On Failure: Raise ConnectionError
-  
+
                 """
         try:
             conn = sqlite3.connect(self.path+DatabaseName+'.db')
@@ -47,6 +47,7 @@ class dBOperation:
                         Description: This method creates a table in the given database which will be used to insert the Good data after raw data validation.
                         Output: None
                         On Failure: Raise Exception
+
 
                         """
         try:
@@ -114,6 +115,8 @@ class dBOperation:
                                             above created table.
                                Output: None
                                On Failure: Raise Exception
+
+
         """
 
         conn = self.dataBaseConnection(Database)
@@ -126,15 +129,19 @@ class dBOperation:
             try:
                 with open(goodFilePath+'/'+file, "r") as f:
                     next(f)
-                    reader = csv.reader(f, delimiter="\n")
-                    for line in enumerate(reader):
-                        for list_ in (line[1]):
+                    reader = csv.reader(f, delimiter='\t',quotechar='"')
+                    #for line in enumerate(reader):
+                    try:
+                        header = next(reader)
+                        for rec in reader:
+                           conn.execute("INSERT INTO Good_Raw_Data VALUES %s" %str(tuple(rec)))
+                        '''for list_ in (line[1]):
                             try:
-                                conn.execute('INSERT INTO Good_Raw_Data values ({values})'.format(values=(list_)))
-                                self.logger.log(log_file," %s: File loaded successfully!!" % file)
-                                conn.commit()
-                            except Exception as e:
-                                raise e
+                             conn.execute('INSERT INTO Good_Raw_Data values ({values})'.format(values=(list_)))'''
+                        self.logger.log(log_file," %s: File loaded successfully!!" % file)
+                        conn.commit()
+                    except Exception as e:
+                            raise e
 
             except Exception as e:
 

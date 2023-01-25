@@ -1,0 +1,7 @@
+2023-01-25/12:00:26		Error while creating table: table Good_Raw_Data has 29 columns but 1 values were supplied 
+2023-01-25/12:00:26		File Moved Successfully marketingdata_021119920_010222.csv
+2023-01-25/12:14:35		Error while creating table: name 'con' is not defined 
+2023-01-25/12:14:35		File Moved Successfully marketingdata_021119920_010222.csv
+2023-01-25/12:15:12		Error while creating table: no such table: tbl 
+2023-01-25/12:15:12		File Moved Successfully marketingdata_021119920_010222.csv
+2023-01-25/12:16:35		 marketingdata_021119920_010222.csv: File loaded successfully!!

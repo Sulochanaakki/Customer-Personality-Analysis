@@ -3,7 +3,8 @@ from flask import Response
 import os
 from flask_cors import CORS, cross_origin
 from training_Validation_Insertion import train_validation
-path="data/"
+from trainingModel import trainModel
+path="Training_Batch_files/"
 def main():
     
      train_valObj = train_validation(path) #object initialization
@@ -11,8 +12,8 @@ def main():
      train_valObj.train_validation()#calling the training_validation function
 
 
-            #trainModelObj = trainModel() #object initialization
-            #trainModelObj.trainingModel() #training the model for the files in the table
+     trainModelObj = trainModel() #object initialization
+     trainModelObj.trainingModel() #training the model for the files in the table
 
 
     

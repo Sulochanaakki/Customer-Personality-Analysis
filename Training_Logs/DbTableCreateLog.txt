@@ -1,7 +1,4 @@
-2023-01-20/22:13:21		Error while creating table: unable to open database file 
-2023-01-23/09:16:48		Error while creating table: unable to open database file 
-2023-01-23/10:27:34		Error while creating table: unable to open database file 
-2023-01-23/10:38:31		Error while creating table: unable to open database file 
-2023-01-23/10:41:35		Error while creating table: unable to open database file 
-2023-01-23/10:54:57		Tables created successfully!!
-2023-01-23/11:03:04		Tables created successfully!!
+2023-01-25/12:00:26		Tables created successfully!!
+2023-01-25/12:14:35		Tables created successfully!!
+2023-01-25/12:15:12		Tables created successfully!!
+2023-01-25/12:16:35		Tables created successfully!!

@@ -17,6 +17,10 @@ class Raw_Data_validation:
     """
              This class shall be used for handling all the validation done on the Raw Training Data!!.
 
+             Written By: iNeuron Intelligence
+             Version: 1.0
+             Revisions: None
+
              """
 
     def __init__(self,path):
@@ -31,6 +35,10 @@ class Raw_Data_validation:
                         Description: This method extracts all the relevant information from the pre-defined "Schema" file.
                         Output: LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, Number of Columns
                         On Failure: Raise ValueError,KeyError,Exception
+
+                         Written By: iNeuron Intelligence
+                        Version: 1.0
+                        Revisions: None
 
                                 """
         try:
@@ -80,8 +88,12 @@ class Raw_Data_validation:
                                 Output: Regex pattern
                                 On Failure: None
 
+                                 Written By: iNeuron Intelligence
+                                Version: 1.0
+                                Revisions: None
+
                                         """
-        regex = "['fraudDetection']+['\_'']+[\d_]+[\d]+\.csv"
+        regex = "['marketingdata']+['\_'']+[\d_]+[\d]+\.csv"
         return regex
 
     def createDirectoryForGoodBadRawData(self):
@@ -93,6 +105,10 @@ class Raw_Data_validation:
 
                                       Output: None
                                       On Failure: OSError
+
+                                       Written By: iNeuron Intelligence
+                                      Version: 1.0
+                                      Revisions: None
 
                                               """
 
@@ -120,6 +136,10 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
+                                             Written By: iNeuron Intelligence
+                                            Version: 1.0
+                                            Revisions: None
+
                                                     """
 
         try:
@@ -146,6 +166,10 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
+                                             Written By: iNeuron Intelligence
+                                            Version: 1.0
+                                            Revisions: None
+
                                                     """
 
         try:
@@ -171,6 +195,9 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
+                                             Written By: iNeuron Intelligence
+                                            Version: 1.0
+                                            Revisions: None
 
                                                     """
         now = datetime.now()
@@ -214,6 +241,10 @@ class Raw_Data_validation:
                                  to Bad Raw Data folder else in Good raw data.
                     Output: None
                     On Failure: Exception
+
+                     Written By: iNeuron Intelligence
+                    Version: 1.0
+                    Revisions: None
 
                 """
 
@@ -266,12 +297,17 @@ class Raw_Data_validation:
 
                           Output: None
                           On Failure: Exception
+
+                           Written By: iNeuron Intelligence
+                          Version: 1.0
+                          Revisions: None
+
                       """
         try:
             f = open("Training_Logs/columnValidationLog.txt", 'a+')
             self.logger.log(f,"Column Length Validation Started!!")
             for file in listdir('Training_Raw_files_validated/Good_Raw/'):
-                csv = pd.read_csv("Training_Raw_files_validated/Good_Raw/" + file)
+                csv = pd.read_csv("Training_Raw_files_validated/Good_Raw/" + file,sep='\t')
                 if csv.shape[1] == NumberofColumns:
                     pass
                 else:
@@ -299,6 +335,9 @@ class Raw_Data_validation:
                                   Output: None
                                   On Failure: Exception
 
+                                   Written By: iNeuron Intelligence
+                                  Version: 1.0
+                                  Revisions: None
 
                               """
         try:

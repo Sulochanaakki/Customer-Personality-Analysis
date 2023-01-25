@@ -1,40 +1,8 @@
-2023-01-20/21:33:18		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
+2023-01-25/12:00:25		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
 
-2023-01-20/21:44:51		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
+2023-01-25/12:14:35		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
 
-2023-01-20/21:46:02		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
+2023-01-25/12:15:12		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
 
-2023-01-20/21:52:06		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
-
-2023-01-20/21:52:35		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
-
-2023-01-20/22:03:55		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
-
-2023-01-20/22:08:11		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
-
-2023-01-20/22:11:34		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
-
-2023-01-20/22:13:21		LengthOfDateStampInFile:: 7	LengthOfTimeStampInFile:: 5	 NumberofColumns:: 29
-
-2023-01-23/09:16:48		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:10:47		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:16:25		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:17:38		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:21:38		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:26:02		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:27:34		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:38:31		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:41:35		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/10:54:57		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
-
-2023-01-23/11:03:04		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
+2023-01-25/12:16:35		LengthOfDateStampInFile:: 9	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 29
 

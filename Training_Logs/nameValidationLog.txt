@@ -1,13 +1,4 @@
-2023-01-20/21:52:35		Error occured while validating FileName [Errno 2] No such file or directory: 'Training_Batch_Files/marketing_campaign_3000234_34555.csv'
-2023-01-20/22:03:55		Error occured while validating FileName [Errno 2] No such file or directory: 'Training_Batch_Files/marketing_campaign_3000234_34555.csv'
-2023-01-20/22:08:11		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign_3000234_34555.csv
-2023-01-20/22:11:34		Error occured while validating FileName [Errno 2] No such file or directory: 'Training_Batch_Files/marketing_campaign.csv'
-2023-01-20/22:13:21		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign_3000234_34555.csv
-2023-01-23/09:16:48		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign_3000234_34555.csv
-2023-01-23/10:10:47		Error occured while validating FileName [Errno 2] No such file or directory: 'Training_Batch_Files/marketing_campaign.csv'
-2023-01-23/10:26:02		Error occured while validating FileName [Errno 2] No such file or directory: 'Training_Batch_Files/marketing_campaign.csv'
-2023-01-23/10:27:34		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign.csv
-2023-01-23/10:38:31		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign.csv
-2023-01-23/10:41:35		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign.csv
-2023-01-23/10:54:57		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign.csv
-2023-01-23/11:03:04		Invalid File Name!! File moved to Bad Raw Folder :: marketing_campaign.csv
+2023-01-25/12:00:25		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
+2023-01-25/12:14:35		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
+2023-01-25/12:15:12		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
+2023-01-25/12:16:35		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
