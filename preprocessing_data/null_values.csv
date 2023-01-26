@@ -1,0 +1,30 @@
+,columns,missing values count
+0,ID,0
+1,Year_Birth,0
+2,Education ,0
+3,Marital_Status,0
+4,Income,576
+5,Kidhome,0
+6,Teenhome,0
+7,Dt_Customer,0
+8,Recency,0
+9,MntWines,0
+10,MntFruits,0
+11,MntMeatProducts,0
+12,MntFishProducts,0
+13,MntSweetProducts,0
+14,MntGoldProds,0
+15,NumDealsPurchases,0
+16,NumWebPurchases,0
+17,NumCatalogPurchases,0
+18,NumStorePurchases,0
+19,NumWebVisitsMonth,0
+20,AcceptedCmp3,0
+21,AcceptedCmp4,0
+22,AcceptedCmp5,0
+23,AcceptedCmp1,0
+24,AcceptedCmp2,0
+25,Complain,0
+26,Z_CostContact,0
+27,Z_Revenue,0
+28,Response,0

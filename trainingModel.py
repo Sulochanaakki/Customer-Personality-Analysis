@@ -35,7 +35,6 @@ class trainModel:
             """doing the data preprocessing"""
 
             preprocessor=preprocessing.Preprocessor(self.file_object,self.log_writer)
-            data=preprocessor.remove_columns(data,['policy_number','policy_bind_date','policy_state','insured_zip','incident_location','incident_date','incident_state','incident_city','insured_hobbies','auto_make','auto_model','auto_year','age','total_claim_amount']) # remove the column as it doesn't contribute to prediction.
             data.replace('?',np.NaN,inplace=True) # replacing '?' with NaN values for imputation
 
             # check if missing values are present in the dataset
@@ -43,12 +42,12 @@ class trainModel:
 
             # if missing values are there, replace them appropriately.
             if (is_null_present):
-                data = preprocessor.impute_missing_values(data, cols_with_missing_values)  # missing value imputation
+                data = preprocessor.drop_missing_values(data, cols_with_missing_values)  # missing value imputation
             #encode categorical data
             data = preprocessor.encode_categorical_columns(data)
 
             # create separate features and labels
-            X,Y=preprocessor.separate_label_feature(data,label_column_name='fraud_reported')
+            X,Y=preprocessor.separate_label_feature(data,label_column_name='Response')
 
 
             """ Applying the clustering approach"""
@@ -77,8 +76,8 @@ class trainModel:
                 # splitting the data into training and test set for each cluster one by one
                 x_train, x_test, y_train, y_test = train_test_split(cluster_features, cluster_label, test_size=1 / 3, random_state=355)
                 # Proceeding with more data pre-processing steps
-                x_train = preprocessor.scale_numerical_columns(x_train)
-                x_test = preprocessor.scale_numerical_columns(x_test)
+                #x_train = preprocessor.scale_numerical_columns(x_train)
+                #x_test = preprocessor.scale_numerical_columns(x_test)
 
 
                 model_finder=tuner.Model_Finder(self.file_object,self.log_writer) # object initialization

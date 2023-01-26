@@ -1,0 +1,282 @@
+2023-01-25/21:34:04		Start of Training
+2023-01-25/21:34:04		Entered the get_data method of the Data_Getter class
+2023-01-25/21:34:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-25/21:34:04		Entered the remove_columns method of the Preprocessor class
+2023-01-25/21:34:04		Exception occured in remove_columns method of the Preprocessor class. Exception message:  "['policy_number' 'policy_bind_date' 'policy_state' 'insured_zip'\n 'incident_location' 'incident_date' 'incident_state' 'incident_city'\n 'insured_hobbies' 'auto_make' 'auto_model' 'auto_year' 'age'\n 'total_claim_amount'] not found in axis"
+2023-01-25/21:34:04		Column removal Unsuccessful. Exited the remove_columns method of the Preprocessor class
+2023-01-25/21:34:04		Unsuccessful End of Training
+2023-01-25/21:36:35		Start of Training
+2023-01-25/21:36:35		Entered the get_data method of the Data_Getter class
+2023-01-25/21:36:35		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-25/21:36:35		Unsuccessful End of Training
+2023-01-25/21:38:45		Start of Training
+2023-01-25/21:38:45		Entered the get_data method of the Data_Getter class
+2023-01-25/21:38:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-25/21:38:45		Entered the is_null_present method of the Preprocessor class
+2023-01-25/21:38:45		Exception occured in is_null_present method of the Preprocessor class. Exception message:  [Errno 2] No such file or directory: 'preprocessing_data/null_values.csv'
+2023-01-25/21:38:45		Finding missing values failed. Exited the is_null_present method of the Preprocessor class
+2023-01-25/21:38:45		Unsuccessful End of Training
+2023-01-25/21:40:04		Start of Training
+2023-01-25/21:40:04		Entered the get_data method of the Data_Getter class
+2023-01-25/21:40:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-25/21:40:04		Entered the is_null_present method of the Preprocessor class
+2023-01-25/21:40:04		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-25/21:40:04		Unsuccessful End of Training
+2023-01-25/21:42:15		Start of Training
+2023-01-25/21:42:15		Entered the get_data method of the Data_Getter class
+2023-01-25/21:42:15		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-25/21:42:15		Entered the is_null_present method of the Preprocessor class
+2023-01-25/21:42:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-25/21:42:15		Entered the missingvalues method of the Preprocessor class
+2023-01-25/21:42:15		dropped missing values Successful.
+2023-01-25/21:42:15		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-25/21:42:15		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-25/21:42:15		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-25/21:42:15		Unsuccessful End of Training
+2023-01-26/11:05:52		Start of Training
+2023-01-26/11:05:52		Entered the get_data method of the Data_Getter class
+2023-01-26/11:05:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:05:52		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:05:52		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:05:52		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:05:52		dropped missing values Successful.
+2023-01-26/11:05:52		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:05:53		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:05:53		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:05:53		Unsuccessful End of Training
+2023-01-26/11:11:07		Start of Training
+2023-01-26/11:11:07		Entered the get_data method of the Data_Getter class
+2023-01-26/11:11:07		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:11:07		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:11:07		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:11:07		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:11:07		dropped missing values Successful.
+2023-01-26/11:11:07		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:11:07		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:11:07		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:11:07		Unsuccessful End of Training
+2023-01-26/11:12:57		Start of Training
+2023-01-26/11:12:57		Entered the get_data method of the Data_Getter class
+2023-01-26/11:12:57		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:12:57		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:12:57		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:12:57		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:12:57		dropped missing values Successful.
+2023-01-26/11:12:57		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:12:57		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:12:57		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:12:57		Unsuccessful End of Training
+2023-01-26/11:15:04		Start of Training
+2023-01-26/11:15:04		Entered the get_data method of the Data_Getter class
+2023-01-26/11:15:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:15:05		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:15:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:15:05		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:15:05		dropped missing values Successful.
+2023-01-26/11:15:05		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:15:05		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:15:05		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:15:05		Unsuccessful End of Training
+2023-01-26/11:20:41		Start of Training
+2023-01-26/11:20:41		Entered the get_data method of the Data_Getter class
+2023-01-26/11:20:41		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:20:41		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:20:42		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:20:42		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:20:42		dropped missing values Successful.
+2023-01-26/11:20:42		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:20:42		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:20:42		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:20:42		Unsuccessful End of Training
+2023-01-26/11:21:54		Start of Training
+2023-01-26/11:21:54		Entered the get_data method of the Data_Getter class
+2023-01-26/11:21:54		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:21:54		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:21:54		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:21:54		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:21:54		dropped missing values Successful.
+2023-01-26/11:21:54		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:21:54		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:21:54		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:21:54		Unsuccessful End of Training
+2023-01-26/11:26:30		Start of Training
+2023-01-26/11:26:30		Entered the get_data method of the Data_Getter class
+2023-01-26/11:26:30		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:26:30		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:26:30		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:26:30		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:26:30		dropped missing values Successful.
+2023-01-26/11:26:30		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:26:30		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:26:30		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:26:30		Unsuccessful End of Training
+2023-01-26/11:35:09		Start of Training
+2023-01-26/11:35:09		Entered the get_data method of the Data_Getter class
+2023-01-26/11:35:09		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:35:09		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:35:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:35:09		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:35:09		dropped missing values Successful.
+2023-01-26/11:35:09		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:35:09		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:35:09		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:35:09		Unsuccessful End of Training
+2023-01-26/11:42:43		Start of Training
+2023-01-26/11:42:43		Entered the get_data method of the Data_Getter class
+2023-01-26/11:42:43		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:42:43		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:42:43		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:42:43		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:42:43		dropped missing values Successful.
+2023-01-26/11:42:43		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:42:43		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:42:43		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:42:43		Unsuccessful End of Training
+2023-01-26/11:48:11		Start of Training
+2023-01-26/11:48:11		Entered the get_data method of the Data_Getter class
+2023-01-26/11:48:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/11:48:12		Entered the is_null_present method of the Preprocessor class
+2023-01-26/11:48:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/11:48:12		Entered the missingvalues method of the Preprocessor class
+2023-01-26/11:48:12		dropped missing values Successful.
+2023-01-26/11:48:12		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:48:12		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/11:48:12		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/11:48:12		Unsuccessful End of Training
+2023-01-26/12:07:11		Start of Training
+2023-01-26/12:07:11		Entered the get_data method of the Data_Getter class
+2023-01-26/12:07:11		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:07:11		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:07:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:07:11		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:07:11		dropped missing values Successful.
+2023-01-26/12:07:11		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:07:11		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/12:07:11		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:07:11		Unsuccessful End of Training
+2023-01-26/12:10:20		Start of Training
+2023-01-26/12:10:20		Entered the get_data method of the Data_Getter class
+2023-01-26/12:10:20		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:10:20		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:10:20		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:10:20		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:10:20		dropped missing values Successful.
+2023-01-26/12:10:20		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:10:20		Exception occured in encode_categorical_columns method of the Preprocessor class. Exception message:  "['Education'] not found in axis"
+2023-01-26/12:10:20		encoding for categorical columns Failed. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:10:20		Unsuccessful End of Training
+2023-01-26/12:15:57		Start of Training
+2023-01-26/12:15:57		Entered the get_data method of the Data_Getter class
+2023-01-26/12:15:57		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:15:57		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:15:57		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:15:57		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:15:57		dropped missing values Successful.
+2023-01-26/12:15:57		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:15:57		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:15:57		Entered the separate_label_feature method of the Preprocessor class
+2023-01-26/12:15:57		Exception occured in separate_label_feature method of the Preprocessor class. Exception message:  "['fraud_reported'] not found in axis"
+2023-01-26/12:15:57		Label Separation Unsuccessful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-26/12:15:57		Unsuccessful End of Training
+2023-01-26/12:19:59		Start of Training
+2023-01-26/12:19:59		Entered the get_data method of the Data_Getter class
+2023-01-26/12:20:00		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:20:00		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:20:00		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:20:00		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:20:00		dropped missing values Successful.
+2023-01-26/12:20:00		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:20:00		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:20:00		Entered the separate_label_feature method of the Preprocessor class
+2023-01-26/12:20:00		Exception occured in separate_label_feature method of the Preprocessor class. Exception message:  "['Response'] not found in axis"
+2023-01-26/12:20:00		Label Separation Unsuccessful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-26/12:20:00		Unsuccessful End of Training
+2023-01-26/12:20:33		Start of Training
+2023-01-26/12:20:33		Entered the get_data method of the Data_Getter class
+2023-01-26/12:20:34		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:20:34		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:20:34		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:20:34		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:20:34		dropped missing values Successful.
+2023-01-26/12:20:34		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:20:34		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:20:34		Entered the separate_label_feature method of the Preprocessor class
+2023-01-26/12:20:34		Exception occured in separate_label_feature method of the Preprocessor class. Exception message:  "['Response '] not found in axis"
+2023-01-26/12:20:34		Label Separation Unsuccessful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-26/12:20:34		Unsuccessful End of Training
+2023-01-26/12:21:05		Start of Training
+2023-01-26/12:21:05		Entered the get_data method of the Data_Getter class
+2023-01-26/12:21:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:21:05		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:21:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:21:05		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:21:05		dropped missing values Successful.
+2023-01-26/12:21:05		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:21:05		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:21:05		Entered the separate_label_feature method of the Preprocessor class
+2023-01-26/12:21:05		Exception occured in separate_label_feature method of the Preprocessor class. Exception message:  "[' Response'] not found in axis"
+2023-01-26/12:21:05		Label Separation Unsuccessful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-26/12:21:05		Unsuccessful End of Training
+2023-01-26/12:24:35		Start of Training
+2023-01-26/12:24:35		Entered the get_data method of the Data_Getter class
+2023-01-26/12:24:35		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:24:35		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:24:35		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:24:35		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:24:35		dropped missing values Successful.
+2023-01-26/12:24:35		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:24:35		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:24:35		Entered the separate_label_feature method of the Preprocessor class
+2023-01-26/12:24:35		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-26/12:24:35		Entered the elbow_plot method of the KMeansClustering class
+2023-01-26/12:24:44		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-01-26/12:24:44		Entered the create_clusters method of the KMeansClustering class
+2023-01-26/12:24:45		Entered the save_model method of the File_Operation class
+2023-01-26/12:24:45		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-01-26/12:24:45		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-01-26/12:24:45		Unsuccessful End of Training
+2023-01-26/12:25:45		Start of Training
+2023-01-26/12:25:45		Entered the get_data method of the Data_Getter class
+2023-01-26/12:25:45		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-26/12:25:45		Entered the is_null_present method of the Preprocessor class
+2023-01-26/12:25:45		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-01-26/12:25:45		Entered the missingvalues method of the Preprocessor class
+2023-01-26/12:25:45		dropped missing values Successful.
+2023-01-26/12:25:45		Entered the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:25:45		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2023-01-26/12:25:45		Entered the separate_label_feature method of the Preprocessor class
+2023-01-26/12:25:45		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-01-26/12:25:45		Entered the elbow_plot method of the KMeansClustering class
+2023-01-26/12:25:55		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-01-26/12:25:55		Entered the create_clusters method of the KMeansClustering class
+2023-01-26/12:25:55		Entered the save_model method of the File_Operation class
+2023-01-26/12:25:55		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-01-26/12:25:55		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-01-26/12:25:55		Entered the get_best_model method of the Model_Finder class
+2023-01-26/12:25:55		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-26/12:26:28		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-26/12:26:29		AUC for XGBoost:0.9503617933600277
+2023-01-26/12:26:29		Entered the get_best_params_for_svm method of the Model_Finder class
+2023-01-26/12:27:37		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2023-01-26/12:27:37		AUC for SVM:0.5
+2023-01-26/12:27:37		Entered the save_model method of the File_Operation class
+2023-01-26/12:27:37		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2023-01-26/12:27:37		Entered the get_best_model method of the Model_Finder class
+2023-01-26/12:27:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-26/12:28:07		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-26/12:28:07		AUC for XGBoost:0.9926729202644853
+2023-01-26/12:28:07		Entered the get_best_params_for_svm method of the Model_Finder class
+2023-01-26/12:30:46		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2023-01-26/12:30:47		AUC for SVM:0.5
+2023-01-26/12:30:47		Entered the save_model method of the File_Operation class
+2023-01-26/12:30:47		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2023-01-26/12:30:47		Entered the get_best_model method of the Model_Finder class
+2023-01-26/12:30:47		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-26/12:31:17		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2023-01-26/12:31:17		AUC for XGBoost:0.960325530997009
+2023-01-26/12:31:17		Entered the get_best_params_for_svm method of the Model_Finder class
+2023-01-26/12:32:17		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2023-01-26/12:32:17		AUC for SVM:0.5
+2023-01-26/12:32:17		Entered the save_model method of the File_Operation class
+2023-01-26/12:32:17		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2023-01-26/12:32:17		Successful End of Training

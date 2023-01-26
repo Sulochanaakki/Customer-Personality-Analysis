@@ -28,7 +28,7 @@ class Preprocessor:
         self.data = data
 
         try:
-            self.df_without_spaces=self.data.apply(lambda x: x.str.strip() if x.dtype == "object" else x)  # drop the labels specified in the columns
+            self.df_without_spaces=self.data.apply(lambda x: x.str.strip() if x.dtype == "any" else x)  # drop the labels specified in the columns
             self.logger_object.log(self.file_object,
                                    'Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class')
             return self.df_without_spaces
@@ -38,30 +38,7 @@ class Preprocessor:
                                        e))
             self.logger_object.log(self.file_object,
                                    'unwanted space removal Unsuccessful. Exited the remove_unwanted_spaces method of the Preprocessor class')
-            raise Exception()
-
-
-    def remove_columns(self,data,columns):
-        """
-                Method Name: remove_columns
-                Description: This method removes the given columns from a pandas dataframe.
-                Output: A pandas DataFrame after removing the specified columns.
-                On Failure: Raise Exception
-
-        """
-        self.logger_object.log(self.file_object, 'Entered the remove_columns method of the Preprocessor class')
-        self.data=data
-        self.columns=columns
-        try:
-            self.useful_data=self.data.drop(labels=self.columns, axis=1) # drop the labels specified in the columns
-            self.logger_object.log(self.file_object,
-                                   'Column removal Successful.Exited the remove_columns method of the Preprocessor class')
-            return self.useful_data
-        except Exception as e:
-            self.logger_object.log(self.file_object,'Exception occured in remove_columns method of the Preprocessor class. Exception message:  '+str(e))
-            self.logger_object.log(self.file_object,
-                                   'Column removal Unsuccessful. Exited the remove_columns method of the Preprocessor class')
-            raise Exception()
+            raise Exception()   
 
     def separate_label_feature(self, data, label_column_name):
         """
@@ -166,15 +143,13 @@ class Preprocessor:
                                                            'Absurd': 'Single',
                                                            'YOLO': 'Single'})
             self.cat_df = self.cat_df[self.cat_df.Age < 100]
-            self.cat_df = self.cat_df[self.cat_df.Income < 120000]  
+            self.cat_df = self.cat_df[self.cat_df.Income < 120000]                                                                    
 
-            col_to_drop=['ID', 'Year_Birth', 'Education', 'Marital_Status', 'Kidhome', 'Teenhome', 'MntWines', 'MntFruits','MntMeatProducts',
+            self.data= self.cat_df.drop(['ID', 'Year_Birth', 'Education ', 'Marital_Status', 'Kidhome', 'Teenhome', 'MntWines', 'MntFruits','MntMeatProducts',
                           'MntFishProducts', 'MntSweetProducts', 'MntGoldProds','Dt_Customer', 'Z_CostContact',
                           'Z_Revenue', 'Recency', 'NumDealsPurchases', 'NumWebPurchases','NumCatalogPurchases',
                           'NumStorePurchases', 'NumWebVisitsMonth', 'AcceptedCmp3', 'AcceptedCmp4', 'AcceptedCmp5',
-                          'AcceptedCmp1', 'AcceptedCmp2', 'Complain',  'Response', 'AgeGroup']                                             
-
-            self.data= self.cat_df.drop(col_to_drop,axis=1)
+                          'AcceptedCmp1', 'AcceptedCmp2', 'Complain', 'AgeGroup'], axis=1)
             self.logger_object.log(self.file_object, 'encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class')
             return self.data
 
