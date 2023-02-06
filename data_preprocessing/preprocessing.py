@@ -145,7 +145,7 @@ class Preprocessor:
             self.cat_df = self.cat_df[self.cat_df.Age < 100]
             self.cat_df = self.cat_df[self.cat_df.Income < 120000]                                                                    
 
-            self.data= self.cat_df.drop(['ID', 'Year_Birth', 'Education ', 'Marital_Status', 'Kidhome', 'Teenhome', 'MntWines', 'MntFruits','MntMeatProducts',
+            self.data= self.cat_df.drop(['ID', 'Year_Birth', 'Education', 'Marital_Status', 'Kidhome', 'Teenhome', 'MntWines', 'MntFruits','MntMeatProducts',
                           'MntFishProducts', 'MntSweetProducts', 'MntGoldProds','Dt_Customer', 'Z_CostContact',
                           'Z_Revenue', 'Recency', 'NumDealsPurchases', 'NumWebPurchases','NumCatalogPurchases',
                           'NumStorePurchases', 'NumWebVisitsMonth', 'AcceptedCmp3', 'AcceptedCmp4', 'AcceptedCmp5',

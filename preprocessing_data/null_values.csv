@@ -1,9 +1,9 @@
 ,columns,missing values count
 0,ID,0
 1,Year_Birth,0
-2,Education ,0
+2,Education,0
 3,Marital_Status,0
-4,Income,576
+4,Income,24
 5,Kidhome,0
 6,Teenhome,0
 7,Dt_Customer,0
@@ -27,4 +27,3 @@
 25,Complain,0
 26,Z_CostContact,0
 27,Z_Revenue,0
-28,Response,0

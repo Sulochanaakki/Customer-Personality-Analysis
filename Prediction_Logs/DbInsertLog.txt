@@ -1,0 +1,126 @@
+2023-02-01/20:07:35		Error while creating table: no such column: Graduation 
+2023-02-01/20:07:35		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:08:37		Error while creating table: no such column: Graduation 
+2023-02-01/20:08:37		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:11:18		Error while creating table: near ")": syntax error 
+2023-02-01/20:11:18		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:13:23		Error while creating table: near ")": syntax error 
+2023-02-01/20:13:23		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:18:01		Error while inserting into table: near ")": syntax error 
+2023-02-01/20:18:01		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:29:40		Error while inserting into table: near ")": syntax error 
+2023-02-01/20:29:40		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:32:49		Error while inserting into table: 26 values for 28 columns 
+2023-02-01/20:32:49		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:37:08		Error while inserting into table: Incorrect number of bindings supplied. The current statement uses 28, and there are 1 supplied. 
+2023-02-01/20:37:08		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:39:19		Error while inserting into table: Incorrect number of bindings supplied. The current statement uses 28, and there are 1 supplied. 
+2023-02-01/20:39:19		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:42:32		Error while inserting into table: Incorrect number of bindings supplied. The current statement uses 28, and there are 1 supplied. 
+2023-02-01/20:42:32		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:42:51		Error while inserting into table: near ")": syntax error 
+2023-02-01/20:42:51		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:44:46		Error while inserting into table: near ")": syntax error 
+2023-02-01/20:44:46		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:45:27		Error while inserting into table: Incorrect number of bindings supplied. The current statement uses 28, and there are 1 supplied. 
+2023-02-01/20:45:27		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:49:57		Error while inserting into table: Incorrect number of bindings supplied. The current statement uses 28, and there are 1 supplied. 
+2023-02-01/20:49:57		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:50:32		Error while inserting into table: Incorrect number of bindings supplied. The current statement uses 28, and there are 1 supplied. 
+2023-02-01/20:50:32		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/20:51:50		Error while inserting into table: near ")": syntax error 
+2023-02-01/20:51:50		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:20:03		Error while inserting into table: no such table: test_table 
+2023-02-01/21:20:03		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:20:38		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:20:38		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:22:46		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:22:46		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:23:38		Error while inserting into table: near ")": syntax error 
+2023-02-01/21:23:38		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:24:21		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:24:21		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:25:20		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:25:20		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:26:15		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:26:15		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:26:58		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:26:58		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:30:27		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:30:27		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:31:07		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:31:07		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:31:32		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:31:32		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-01/21:52:30		Error while inserting into table: no such column: Graduation 
+2023-02-01/21:52:30		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/09:44:03		Error while inserting into table: no such column: Graduation 
+2023-02-02/09:44:03		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/09:44:32		Error while inserting into table: near ")": syntax error 
+2023-02-02/09:44:32		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:01:34		Error while creating table: near ")": syntax error 
+2023-02-02/10:01:34		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:13:26		Error while creating table: near ")": syntax error 
+2023-02-02/10:13:26		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:19:32		Error while inserting values into table: near ")": syntax error 
+2023-02-02/10:19:32		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:22:07		Error while inserting values into table: iterator should return strings, not bytes (did you open the file in text mode?) 
+2023-02-02/10:22:07		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:24:20		Error while inserting values into table: near ")": syntax error 
+2023-02-02/10:24:20		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:25:49		Error while inserting into table: near ")": syntax error 
+2023-02-02/10:25:49		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:52:31		Error while inserting into table: near ")": syntax error 
+2023-02-02/10:52:31		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:53:10		Error while inserting into table: near ")": syntax error 
+2023-02-02/10:53:10		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/10:53:58		Error while inserting into table: near ")": syntax error 
+2023-02-02/10:53:58		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/11:28:23		Error while inserting into table: near ")": syntax error 
+2023-02-02/11:28:23		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/11:38:06		Error while inserting into table: near ")": syntax error 
+2023-02-02/11:38:06		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-02/11:39:29		File insertion failed. Error : list index out of range
+2023-02-02/11:41:41		File insertion failed. Error : list index out of range
+2023-02-02/11:41:51		File insertion failed. Error : list index out of range
+2023-02-02/11:44:23		File insertion failed. Error : list index out of range
+2023-02-02/11:44:57		File insertion failed. Error : table Good_Raw_Data already exists
+2023-02-02/11:47:37		File insertion failed. Error : no such table: data
+2023-02-02/11:48:10		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/11:49:11		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/11:50:10		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/11:53:39		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/11:56:48		File insertion failed. Error : quotechar must be set if quoting enabled
+2023-02-02/11:57:08		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/11:57:54		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/11:59:07		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:01:18		File insertion failed. Error : 102 values for 28 columns
+2023-02-02/12:01:51		File insertion failed. Error : near "5": syntax error
+2023-02-02/12:02:24		File insertion failed. Error : near "5": syntax error
+2023-02-02/12:07:39		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:08:39		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:09:26		File insertion failed. Error : Replacement index 1 out of range for positional args tuple
+2023-02-02/12:10:40		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:14:08		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:15:06		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:16:03		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:16:25		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:17:35		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:19:47		File insertion failed. Error : 1 values for 28 columns
+2023-02-02/12:20:28		File insertion failed. Error : 1 values for 28 columns
+2023-02-06/20:03:52		Error while creating table: no such column: Graduation 
+2023-02-06/20:03:52		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:07:59		Error while creating table: near ")": syntax error 
+2023-02-06/20:07:59		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:11:05		Error while creating table: near ")": syntax error 
+2023-02-06/20:11:05		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:33:07		Error while creating table: near ")": syntax error 
+2023-02-06/20:33:07		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:41:02		Error while creating table: near ")": syntax error 
+2023-02-06/20:41:02		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:41:58		Error while creating table: near ")": syntax error 
+2023-02-06/20:41:58		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:43:48		Error while creating table: near ")": syntax error 
+2023-02-06/20:43:48		File Moved Successfully marketingdata_021119920_010222.csv
+2023-02-06/20:44:26		Error while creating table: near ")": syntax error 
+2023-02-06/20:44:26		File Moved Successfully marketingdata_021119920_010222.csv

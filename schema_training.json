@@ -5,7 +5,7 @@
 	"ColName": {
 		"ID" : "Integer",
 		"Year_Birth": "Integer",
-        "Education ": "varchar",
+        "Education": "varchar",
 		"Marital_Status": "varchar",
 		"Income": "Integer",
 		"Kidhome": "Integer",

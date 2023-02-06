@@ -17,9 +17,6 @@ class Raw_Data_validation:
     """
              This class shall be used for handling all the validation done on the Raw Training Data!!.
 
-             Written By: iNeuron Intelligence
-             Version: 1.0
-             Revisions: None
 
              """
 
@@ -36,9 +33,6 @@ class Raw_Data_validation:
                         Output: LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, Number of Columns
                         On Failure: Raise ValueError,KeyError,Exception
 
-                         Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
 
                                 """
         try:
@@ -88,10 +82,6 @@ class Raw_Data_validation:
                                 Output: Regex pattern
                                 On Failure: None
 
-                                 Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
-
                                         """
         regex = "['marketingdata']+['\_'']+[\d_]+[\d]+\.csv"
         return regex
@@ -106,9 +96,6 @@ class Raw_Data_validation:
                                       Output: None
                                       On Failure: OSError
 
-                                       Written By: iNeuron Intelligence
-                                      Version: 1.0
-                                      Revisions: None
 
                                               """
 
@@ -135,13 +122,7 @@ class Raw_Data_validation:
                                                           loaded in the DB,deleting the directory ensures space optimization.
                                             Output: None
                                             On Failure: OSError
-
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
                                                     """
-
         try:
             path = 'Training_Raw_files_validated/'
             # if os.path.isdir("ids/" + userName):
@@ -165,10 +146,6 @@ class Raw_Data_validation:
                                             Description: This method deletes the directory made to store the bad Data.
                                             Output: None
                                             On Failure: OSError
-
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
 
                                                     """
 
@@ -195,9 +172,6 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
 
                                                     """
         now = datetime.now()
@@ -241,10 +215,6 @@ class Raw_Data_validation:
                                  to Bad Raw Data folder else in Good raw data.
                     Output: None
                     On Failure: Exception
-
-                     Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
 
                 """
 
@@ -298,10 +268,6 @@ class Raw_Data_validation:
                           Output: None
                           On Failure: Exception
 
-                           Written By: iNeuron Intelligence
-                          Version: 1.0
-                          Revisions: None
-
                       """
         try:
             f = open("Training_Logs/columnValidationLog.txt", 'a+')
@@ -335,9 +301,6 @@ class Raw_Data_validation:
                                   Output: None
                                   On Failure: Exception
 
-                                   Written By: iNeuron Intelligence
-                                  Version: 1.0
-                                  Revisions: None
 
                               """
         try:

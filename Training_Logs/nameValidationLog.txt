@@ -25,3 +25,7 @@
 2023-01-26/12:21:04		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
 2023-01-26/12:24:34		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
 2023-01-26/12:25:44		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
+2023-01-30/20:41:13		Error occured while validating FileName [Errno 2] No such file or directory: 'Training_Batch_Files/marketingdata_021119920_010223.csv'
+2023-01-30/20:41:42		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
+2023-01-30/21:20:17		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
+2023-02-01/19:18:08		Valid File name!! File moved to GoodRaw Folder :: marketingdata_021119920_010222.csv
